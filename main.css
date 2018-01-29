@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: #ffffe5;
+}
+p {
+  font-family: monospace,serif;
+  font-size: 1.5em;
+}
+h1,
+button {
+  font-family: monospace, serif;
+  font-weight: lighter;
+}
+button {
+  margin-top: 20px;
+  width: 200px;
+  font-size: 1.5em;
+  border-radius: 5%;
+  background-color: white;
+}
+button:hover {
+  background-color: gray;
+}
+#text-one {
+  font-weight: bold;
+}
+.main-content {
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 5%;
+  background-color: white;
+}
